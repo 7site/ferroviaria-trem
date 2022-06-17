@@ -1,0 +1,213 @@
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: darkslategrey;
+    --quartenary-color: grey;
+}
+
+body {
+    background-image: url(https://static9.depositphotos.com/1514637/1230/i/600/depositphotos_12304227-stock-photo-grunge-parchment.jpg);
+}
+
+.container {
+    background: var(--primary-color);
+    text-align: center;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.audio {
+    width: 250px;
+
+    display: block;
+}
+
+.logomaria {
+    border-radius: 20px;
+}
+
+
+
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 10px;
+    border-color: var(--primary-color);
+    border: solid 5px;
+    box-shadow: 5px 5px 5px var(--quartenary-color);
+
+}
+
+.dp-menu ul {
+    background-color: var(--tertiary-color);
+
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.dp-menu ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--quartenary-color);
+}
+
+/*sub-menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+
+}
+
+.dp-menu ul ul {
+    width: 150px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+
+}
+
+.lado {
+    border: solid 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: var(--secondary-color);
+}
+
+}
+
+.card {
+    border-radius: 20px;
+    border: 5px solid;
+    box-shadow: 5px 5px 5px var(--secondary-color);
+
+
+}
+
+
+
+#conver {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: var(--quartenary-color);
+    box-shadow: 5px 5px 5px var(--primary-color);
+    border-radius: 20px;
+}
+
+.title {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: var(--secondary-color);
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput {
+    border: 3px solid var(--secondary-color);
+    outline: nome;
+}
+
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+
+
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+@media (max-width:510px) {
+    .logomaria {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width:425px) {
+    .container {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:425px) {
+    .dp-menu {
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:510px) {
+    .lado {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width:510px) {
+    .conver {
+        width: 90%;
+        height: auto;
+    }
+}

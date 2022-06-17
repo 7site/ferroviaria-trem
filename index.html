@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://cdn-icons.flaticon.com/png/128/4226/premium/4226923.png?token=exp=1655262350~hmac=12c857da213656c233cc2add569e8dad"
+        type="image/x-icon">
+    <title>Seja Bem Vindo a sua estação!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            <audio controls class="audio">
+                <source src="trem.ogg" type="audio/ogg">
+                <source src="trem.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            Ferroviária Trem das 11
+        </h1>
+        <img src="logo.jpg" width="95%" height="200" class="logomaria">
+    </div>
+    <nav class="dp-menu">
+        <ul>
+            <li>
+                <a href="#">
+                    Transporte
+                </a>
+                <ul>
+                    <li><a href="#cargas">Carga</a></li>
+                    <li><a href="#pessoa">Peso</a></li>
+                    <li><a href="#carga e pessoa">Carga e Pessoa</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    Vias Opções
+                </a>
+                <ul>
+                    <li><a href="#simples">Simples</a></li>
+                    <li><a href="#transposições">Transposições a cada x km</a></li>
+                    <li><a href="#dupla">Dupla</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Transposições
+                </a>
+                <ul>
+                    <li><a href="#transposição">Transposições</a></li>
+                    <li><a href="#não definir">Não definir patio agora</a></li>
+                    <li><a href="#comprimento">Comprimento</a></li>
+                    <li><a href="#larguraz">Largura Z</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Nossa Missão
+                </a>
+                <ul>
+                    <li><a href="#cliente">Com o cliente</a></li>
+                    <li><a href="#somos">Quem somos?</a></li>
+                    <li><a href="#saude">Saúde</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    Parceiros
+                </a>
+                <ul>
+                    <li><a href="https://7site.github.io/JurassicWorld/">CineMark</a></li>
+                    <li><a href="http://www.amvazamentos.com.br/">AMVazamentos</a></li>
+                    <li><a href="https://7site.github.io/Portifolio-Davi/">Portfólio</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div id="conver">
+        <div>
+            <h1 class="title">
+                Conversor de Moedas
+            </h1>
+            <div>
+                <form class="tipsForm" id="tipsForm">
+
+                    <label for="serviceQual">
+                        <p>Escolha a Moeda a ser usada!</p>
+                    </label>
+                    <p>$
+                        <select name="serviceQual" id="serviceQual" class="formSelect" required>
+                            <option disable selected value="0">-- Escolha uma opção</option>
+                            <option value="5,14">$ - Dolar</option>
+                            <option value="0">R$ - Real</option>
+                            <option value="5,54">€ - Euro</option>
+                            <option value="6,24">£ - libra</option>
+                        </select>
+                    </p>
+
+                    <label for="bill">
+                        <p>Digite um valor?</p>
+                    </label>
+                    <p>
+                        <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
+                        </input>
+                    </p>
+
+                    <button type="submit" class="formSubmit">Converter</button>
+                </form>
+            </div>
+            <br />
+            <div id="totalTip">
+                VALOR CONVERTIDO!!!
+                R$ <span id="tip"> 0,00</span>
+                <p id="each">#</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="lado">
+        <h2 class="text-page">
+            Expansão
+            <br /><br />
+            Em 1907 o processo de arrendamento das ferrovias brasileiras, baseada na seguinte declaração do presidente
+            Campos Sales:
+            <br />
+            “ A longa experiência mostrou que não há vantagem em manter ferrovias sob a administração pública.
+            Entregá-las à iniciativa privada e estimular a atuação dos interesses privados não só alivia o tesouro
+            nacional como amplia a esfera de prosperidade e utilidade tanto para o comércio como para a indústria”
+            </h1>
+            <img src="card.gif" width="200px" height="300px" class="card">
+    </div>
+
+
+
+
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+
+
+
+</body>
+
+</html>
